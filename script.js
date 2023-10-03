@@ -1,3 +1,6 @@
+function inicio(){
+  window.location.href = "home.html";
+}
 
 (function() { 
         var dialog = document.getElementById('DialogBox'); 
