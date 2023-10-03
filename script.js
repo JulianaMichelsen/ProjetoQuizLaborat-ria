@@ -3,11 +3,10 @@ function inicio(){
 }
 
 function receberNome() {
-  var nome = document.getElementById("nome").value;
+  var nome = document.getElementById("receberNome").value;
+  console.log(nome);
   
-  document.getElementById("receberNome").value = recebernome;
-  
-  document.getElementById("nome").value = nome;
+  document.getElementById("receberNome").innerHTML = nome;
   
   
 }
