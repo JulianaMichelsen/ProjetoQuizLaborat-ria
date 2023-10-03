@@ -2,8 +2,13 @@ var nome;
 
 function inicio(){
     nome = document.getElementById("nome").value;
+  if(nome == ""){
+    alert("Preencha seu nome!")
+    }else {
   localStorage.setItem("usuario", nome);
   window.location.href = "home.html";
+    }
+  
 }
 
 
@@ -19,4 +24,3 @@ function inicio(){
         document.getElementById('show2').onclick = function() { dialog.show(); }; 
         document.getElementById('hide2').onclick = function() { dialog.close(); }; 
       })();
-  
