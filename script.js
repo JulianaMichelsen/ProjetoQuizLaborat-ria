@@ -10,7 +10,7 @@ function inicio(){
 
 function receberNome() {
     var titulo = document.getElementById("boasVindas");
-    titulo.innerHTML="Olá " + nome + "!";
+    titulo.innerHTML="Olá " + localStorage.getItem("nome"); + "!";
 
 }
 
