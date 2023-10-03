@@ -1,12 +1,14 @@
-/**
- * Botão Submit
- */
-document.getElementById("btnRespostaAno").onclick = function() {
-    var radios = document.getElementsByName("ano");
-    for (var i = 0; i < radios.length; i++) {
-        if (radios[i].checked) {
-            console.log("Escolheu: " + radios[i].value);
-        }
-    }
-};
 
+(function() { 
+        var dialog = document.getElementById('DialogBox'); 
+        document.getElementById('show').onclick = function() { dialog.show(); }; 
+        document.getElementById('hide').onclick = function() { dialog.close(); }; 
+      })();
+
+
+(function() { 
+        var dialog = document.getElementById('DialogBox2'); 
+        document.getElementById('show2').onclick = function() { dialog.show(); }; 
+        document.getElementById('hide2').onclick = function() { dialog.close(); }; 
+      })();
+  
