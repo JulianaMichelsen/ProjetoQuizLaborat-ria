@@ -1,16 +1,17 @@
+var nome;
+
 function inicio(){
-  receberNome();
+    nome = document.getElementById("nome").value;
+  localStorage.setItem("nome", nome);
   window.location.href = "home.html";
+  //receberNome();
+  //alert(nome);
 }
 
 function receberNome() {
-  var nome = document.getElementById("nome").value;
-  if(nome != ""){  
-    document.getElementById("boasVindas").innerHTML = nome;
-  } else{
-    alert("Preencha o seu nome!")
-  }
-  
+    var titulo = document.getElementById("boasVindas");
+    titulo.innerHTML="Olá " + nome + "!";
+
 }
 
 
