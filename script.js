@@ -1,13 +1,15 @@
 function inicio(){
+  receberNome();
   window.location.href = "home.html";
 }
 
 function receberNome() {
-  var nome = document.getElementById("receberNome").value;
-  console.log(nome);
-  
-  document.getElementById("receberNome").innerHTML = nome;
-  
+  var nome = document.getElementById("nome").value;
+  if(nome != ""){  
+    document.getElementById("boasVindas").innerHTML = nome;
+  } else{
+    alert("Preencha o seu nome!")
+  }
   
 }
 
