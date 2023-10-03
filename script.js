@@ -5,7 +5,11 @@ function inicio(){
 function receberNome() {
   var nome = document.getElementById("nome").value;
   
-  document.getElementById("nome").innerHTML = nome;
+  document.getElementById("receberNome").value = recebernome;
+  
+  document.getElementById("nome").value = nome;
+  
+  
 }
 
 
