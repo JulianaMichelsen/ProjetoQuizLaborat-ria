@@ -3,7 +3,9 @@ function inicio(){
 }
 
 function receberNome() {
-  document.getElementById("nome").value;
+  var nome = document.getElementById("nome").value;
+  
+  document.getElementById("nome").innerHTML = nome;
 }
 
 
