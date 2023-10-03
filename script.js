@@ -2,16 +2,8 @@ var nome;
 
 function inicio(){
     nome = document.getElementById("nome").value;
-  localStorage.setItem("nome", nome);
+  localStorage.setItem("usuario", nome);
   window.location.href = "home.html";
-  //receberNome();
-  //alert(nome);
-}
-
-function receberNome() {
-    var titulo = document.getElementById("boasVindas");
-    titulo.innerHTML="Olá " + localStorage.getItem("nome"); + "!";
-
 }
 
 

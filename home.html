@@ -13,10 +13,9 @@
       <div class="content" role="main">
         <h1 class="title">Quiz Disney</h1>
         <p id="boasVindas">
-          
-          <script>
-            const nome = localStorage.getItem("nome")
-            document.getElementById("nome").innerHTML = nome;
+           <script>
+             const nomeUsuario = window.localStorage.getItem("nome")
+            document.getElementById("boasVindas").innerHTML = "Olá! " + nomeUsuario;
           </script>
         </p>
         <p>
