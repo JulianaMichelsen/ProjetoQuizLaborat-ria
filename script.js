@@ -2,6 +2,11 @@ function inicio(){
   window.location.href = "home.html";
 }
 
+function receberNome() {
+  document.getElementById("nome").value;
+}
+
+
 (function() { 
         var dialog = document.getElementById('DialogBox'); 
         document.getElementById('show').onclick = function() { dialog.show(); }; 
