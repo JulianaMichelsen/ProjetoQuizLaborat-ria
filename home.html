@@ -1,57 +1,55 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link rel="icon" href="https://glitch.com/favicon.ico" />
-  <title>"Quiz Disney</title>
-  <link rel="stylesheet" href="/style.css" />
-  <script src="/script.js" defer></script>
-</head>
-<body>
-  <div class="wrapper">
-    <div class="content" role="main">
-      <h1 class="title">Quiz Disney</h1>
-      <p id="boasVindas">
-      
-        </p>
-      <p>1- Qual o filme de menor duração da Disney?</p>
-      <section>
-        <input type="radio" id="R1" name="pergunta1" value="resposta1">
-        <label for="R1">Dumbo</label>
-        <input type="radio" id="R2" name="pergunta1" value="resposta1">
-        <label for="R2">Branca de Neve</label>
-        <input type="radio" id="R3" name="pergunta1" value="resposta1">
-        <label for="R3">Aristogatos</label>
-      </section>
-      <div>
-        <dialog id="DialogBox">
-          <p>Dumbo</p>
-          <button id="hide">Fechar</button>
-        </dialog>
-        <br>
-        <button id="show">Responder e ver resultado</button>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="https://glitch.com/favicon.ico" />
+    <title>"Quiz Disney</title>
+    <link rel="stylesheet" href="/style.css" />
+    <script src="/script.js" defer></script>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="content" role="main">
+        <h1 class="title">Quiz Disney</h1>
+        <p id="boasVindas"></p>
+        <p>1- Qual o filme de menor duração da Disney?</p>
+        <section>
+          <input type="radio" id="R1" name="pergunta1" value="true" />
+          <label for="R1">Dumbo</label>
+          <input type="radio" id="R2" name="pergunta1" value="false" />
+          <label for="R2">Branca de Neve</label>
+          <input type="radio" id="R3" name="pergunta1" value="d" />
+          <label for="R3">Aristogatos</label>
+        </section>
+        <div>
+          <dialog id="DialogBox">
+            <p>Dumbo</p>
+            <button id="hide">Fechar</button>
+          </dialog>
+          <br />
+          <button id="show">Responder e ver resultado</button>
+        </div>
+        <br />
+        <p>2 - Qual o nome do vizinho do Andy em Toy Story?</p>
+        <section>
+          <input type="radio" id="R4" name="pergunta2" value="resposta2" />
+          <label for="R4">Marco</label>
+          <input type="radio" id="R5" name="pergunta2" value="resposta2" />
+          <label for="R5">Sid</label>
+          <input type="radio" id="R6" name="pergunta2" value="resposta2" />
+          <label for="R6">Phil</label>
+        </section>
+        <div>
+          <dialog id="DialogBox2">
+            <p>Sid</p>
+            <button id="hide2">Fechar</button>
+          </dialog>
+          <br />
+          <button id="show2">Responder e ver resultado</button>
+        </div>
       </div>
-      <br>
-      <p>2 - Qual o nome do vizinho do Andy em Toy Story?</p>
-      <section>
-        <input type="radio" id="R4" name="pergunta2" value="resposta2">
-        <label for="R4">Marco</label>
-        <input type="radio" id="R5" name="pergunta2" value="resposta2">
-        <label for="R5">Sid</label>
-        <input type="radio" id="R6" name="pergunta2" value="resposta2">
-        <label for="R6">Phil</label>
-      </section>
-      <div>
-        <dialog id="DialogBox2">
-          <p>Sid</p>
-          <button id="hide2">Fechar</button>
-        </dialog>
-        <br>
-        <button id="show2">Responder e ver resultado</button>
-      </div>
+      <footer></footer>
     </div>
-    <footer> </footer>
-  </div>
-</body>
+  </body>
 </html>
