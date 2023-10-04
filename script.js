@@ -12,7 +12,7 @@ function inicio() {
   }
 }
 
-function verificarRespostas() {
+function verificarRespostas(value) {
   let pergunta1 = document.querySelector(
     'imput[name="pergunta1"]:checked'
   ).value;
