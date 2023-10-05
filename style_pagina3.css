@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Gabarito:wght@600&family=Gloria+Hallelujah&family=Libre+Baskerville:wght@700&family=Mooli&family=Poppins&display=swap');
+
+body {
+  font-family: 'Gabarito', cursive;
+  background-image: url("https://cdn.glitch.global/8b107187-4592-49b5-9d21-8133b0b9defb/fundoquiz.jpg?v=1696345785107");
+  background-position: 100% 100%; 
+  background-attachment: fixed;}
+
+.titulo {
+  color: red;
+  width: 100px;
+  font-family: 'Gloria Hallelujah', cursive;
+  font-size: 20px;
+  background-color: white;
+  text-align: center;
+  border-radius: 16px;
+}
+
+.conteudo_pagina3 {
+  place-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 5% 0;
+}
+
+.cor_voltar{
+  background: #33FF33;
+  border-radius: 50px;
+}
+
+.titulo_home2 {
+  font-family: 'Gloria Hallelujah', cursive;  
+  font-size: 30px;
+  background: #FFFF99;
+  border-radius: 30px;
+  margin: 10px;
+  border-radius: 30px;
+  padding: 10px 50px;
+}
+
+.botao {
+   background-color: #F58634;
+    width: 100px;
+    text-align: center;
+    border-radius: 16px;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 15px 0;
+    text-decoration: none;
+    color: #000000;
+    font-family: 'Mooli', sans-serif;
+}

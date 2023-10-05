@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Gabarito:wght@600&family=Gloria+Hallelujah&family=Libre+Baskerville:wght@700&family=Mooli&family=Poppins&display=swap');
+
+body {
+  background-image: url("https://cdn.glitch.global/8b107187-4592-49b5-9d21-8133b0b9defb/fundoquiz.jpg?v=1696345785107");
+  background-position: 100% 100%; 
+  background-attachment: fixed;}
+
+
+.conteudo_pagina1 {
+  font-family: 'Gloria Hallelujah', cursive;
+  min-height: 50;
+  place-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 5% 0;
+}
+.atualidades {
+  background: #33FF33;
+}
+.disney {
+  background: #33FF33;
+}
+ .P1 {
+    flex-direction: row;
+  
+  }
+  
+button {
+    padding: 20px;
+    margin: 5px;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+
+.caixa_nome {
+  padding: 20px;
+  margin: 5px;
+  border-radius: 50px;
+  cursor: auto;
+}
+
+.conteudo_paragrafo1 {
+  color: #00009C;
+  width: 200px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 600;
+  text-decoration: none;
+  font-family: 'Mooli', sans-serif;
+}
+
+.titulo_index {
+  font-size: 30px;
+  background: #FFFF99;
+  border-radius: 30px;
+  margin: 10px;
+  border-radius: 30px;
+  padding: 10px 50px;
+}

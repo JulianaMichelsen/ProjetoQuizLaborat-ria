@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>quizlaboratoriaanimais</title>
+    <link rel="stylesheet" href="style_pagina3.css" />
+  </head>
+  <body>
+    <section class="conteudo_pagina3">
+      <h1 strong class="titulo_home2" >Quiz Laboratoria</h1>
+      <h2 class="titulo">Animais</h2>
+      <p>Olá, <span id="nomeJogador"></span>! Vamos jogar?</p>
+      <p>1- Qual é o maior felino do mundo?</p>
+      <section class="P1">
+        <button class="botao" onclick="responder(1, 'leão')">Leão</button>
+        <button class="botao" onclick="responder(1, 'Tigre')">Tigre</button>
+        <button class="botao" onclick="responder(1, 'Leopardo')">Leopardo</button>
+        <div id="feedback1"></div>
+      </section>
+      <p>2- Qual é o animal símbolo da Austrália?</p>
+      <section class="P1">
+        <button class="botao" onclick="responder(2, 'Canguru')">Canguru</button>
+        <button class="botao" onclick="responder(2, 'Koala')">Koala</button>
+        <button class="botao" onclick="responder(2, 'Emu')">Emu</button>
+        <div id="feedback2"></div>
+      </section>
+      <p>3- Qual é o pássaro conhecido por imitar sons e vozes humanas?</p>
+      <section class="P1">
+        <button class="botao" onclick="responder(3, 'Papa-capim')">Papa-capim</button>
+        <button class="botao" onclick="responder(3, 'coruja')">Coruja</button>
+        <button class="botao" onclick="responder(3, 'Papagaio')">Papagaio</button>
+        <div id="feedback3"></div>
+      </section>
+      <br />
+        <p>Sua Pontuação é:</p>
+      <section>
+        <p id="pontuacao"></p>
+      </section>
+      <button class="cor_voltar" onclick="jogarNovamente()">
+        Jogar Novamente
+      </button>
+    </section>
+    <script src="script_pagina3.js"></script>
+  </body>
+</html>

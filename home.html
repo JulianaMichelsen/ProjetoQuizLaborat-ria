@@ -1,48 +1,47 @@
 <!DOCTYPE html>
 <html lang="pt-br">
   <head>
-    <meta charset="utf-8" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="icon" href="https://glitch.com/favicon.ico" />
-    <title>"Quiz Disney</title>
-    <link rel="stylesheet" href="/style.css" />
-    <script src="/script.js" defer></script>
+    <title>quizlaboratoriaDisney</title>
+    <link rel="stylesheet" href="style_pagina2.css" />
   </head>
   <body>
-    <div class="wrapper">
-      <div class="content" role="main">
-        <h1 class="title">Quiz Disney</h1>
-        <p id="boasVindas"></p>
-        <p>1- Qual o filme de menor duração da Disney?</p>
-        <form action="/" method="post">
-          <input type="radio" id="R1" name="pergunta1" value="true" />
-          <label for="pergunta1">Dumbo</label>
-          <input type="radio" id="R2" name="pergunta1" value="false" />
-          <label for="pergunta1">Branca de Neve</label>
-          <input type="radio" id="R3" name="pergunta1" value="false" />
-          <label for="pergunta1">Aristogatos</label><br /><br />
-          <input type="submit" value="Responder e ver resultado" />
-        </form>
-        <br />
-        <p>2 - Qual o nome do vizinho do Andy em Toy Story?</p>
-        <section>
-          <input type="radio" id="R4" name="pergunta2" value="resposta2" />
-          <label for="R4">Marco</label>
-          <input type="radio" id="R5" name="pergunta2" value="resposta2" />
-          <label for="R5">Sid</label>
-          <input type="radio" id="R6" name="pergunta2" value="resposta2" />
-          <label for="R6">Phil</label>
-        </section>
-        <div>
-          <dialog id="DialogBox2">
-            <p>Sid</p>
-            <button id="hide2">Fechar</button>
-          </dialog>
-          <br />
-          <button id="show2">Responder e ver resultado</button>
-        </div>
-      </div>
-      <footer></footer>
-    </div>
+    <section class="conteudo_pagina2">
+      <h1 class="titulo_home">Quiz Laboratoria</h1>
+      <h2 class="titulo">Disney</h2>
+      <p>Olá, <span id="nomeJogador"></span>! Vamos jogar?</p>
+      <p>1- Qual o filme de menor duração da Disney?</p>
+      <section class="P1">
+        <button class="botao" onclick="responder(1, 'Dumbo')">Dumbo</button>
+        <button class="botao" onclick="responder(1, 'Branca de Neve')">Branca de Neve</button>
+        <button class="botao" onclick="responder(1, 'Aristogatos')">Aristogatos</button>
+        <div id="feedback1"></div>
+      </section>
+      <p>2- Qual o nome do vizinho do Andy em Toy Story?</p>
+      <section class="P2">
+        <button class="botao" onclick="responder(2, 'Marco')">Marco</button>
+        <button class="botao" onclick="responder(2, 'Sid')">Sid</button>
+        <button class="botao" onclick="responder(2, 'Phil')">Phil</button>
+        <div id="feedback2"></div>
+      </section>
+      <p>3- Qual foi o primeiro filme da Disney?</p>
+      <section class="P3">
+        <button class="botao" onclick="responder(3, 'O Rei Leão')">O Rei Leão</button>
+        <button class="botao" onclick="responder(3, 'Pinochio')">Pinochio</button>
+        <button class="botao" onclick="responder(3, 'Cinderela')">Cinderela</button>
+        <div id="feedback3"></div>
+      </section>
+      <br />
+        <p>Sua Pontuação é:</p>
+      <section>
+        <p id="pontuacao"></p>
+      </section>
+      <button class="cor_voltar" onclick="jogarNovamente()">
+        Jogar Novamente
+      </button>
+    </section>
+    <script src="script_pagina2.js"></script>
   </body>
 </html>

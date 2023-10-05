@@ -1,25 +1,30 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="icon" href="https://glitch.com/favicon.ico" />
-    <title>Quiz Disney</title>
-    <link rel="stylesheet" href="/style.css" />
-    <script src="/script.js" defer></script>
-  </head>
-  <body>
-    <div class="wrapper" />
-    <div class="content" role="main">
-      <h1 class="Trívia Disney">Boas Vindas ao Quiz Disney</h1>
-      <input
-        type="nome"
-        name="name"
-        id="nome"
-        placeholder="Preencha aqui seu nome"
-      /><br />
-      <button class="cor" id="jogar" onclick="inicio()">Jogar</button>
-    </div>
-    <footer class="footer"></footer>
-  </body>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>quizLaboratoriahome</title>
+  <link rel="stylesheet" href="style_pagina1.css">
+  
+</head>
+<body>
+ <div class="conteudo">
+  <section class="conteudo_pagina1">
+   <h1 class="titulo_index">Quiz Laboratoria</h1>
+   <p class="conteudo_paragrafo1">Seja Bem-vindo(a)!</p>
+   <input class="caixa_nome" type="text" id="nomeJogador" placeholder="Escreva seu nome aqui">
+    <br>
+    Escolha o assunto que você gostaria de responder!
+    <br>
+    <br>
+     <section>
+      <button class="disney" onclick="assunto()">Disney</button>
+    <br>
+      <button class="atualidades" onclick="assunto2()">Animais</button>
+    </section>
+  </section>
+ </div>
+<script src="script_pagina1.js"></script>
+</body>
 </html>
